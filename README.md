@@ -51,8 +51,9 @@ Look for the line that looks like this:
 
 Then configure Git:
 
-`git config --global user.signingkey ABCD1234EFGH5678
- git config --global commit.gpgsign true`
+`git config --global user.signingkey ABCD1234EFGH5678`
+
+`git config --global commit.gpgsign true`
 
 Set Git to use GPG (this path may vary):
 
