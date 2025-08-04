@@ -42,17 +42,27 @@
 
 #### **Step 4:** Configure Git to Sign Commits
 Find your GPG key ID:
+
 `gpg --list-secret-keys --keyid-format LONG`
+
 Look for the line that looks like this:
+
 `sec   rsa4096/ABCD1234EFGH5678 ..`
+
 Then configure Git:
+
 `git config --global user.signingkey ABCD1234EFGH5678
  git config --global commit.gpgsign true`
+
 Set Git to use GPG (this path may vary):
+
 `git config --global gpg.program $(which gpg)`
 
+
 #### **Step 5:** Make a Signed Commit
+
 `git commit -S -m "Your signed commit message"`
+
 
 Push your code to GitHub. If everything is set up correctly, GitHub will show a Verified badge next to your commit.
 
