@@ -69,7 +69,7 @@ Push your code to GitHub. If everything is set up correctly, GitHub will show a 
 
 ![Signed Commits](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xm2p6qtfnrmqybdkj6v8.png)
 
-If you want to learn how to get GitHub achievements! You can learn it step by step here ==> [Get Github Achievements Step By Step]([https://gpgtools.org/](https://github.com/4xmen/Get-Github-Achievements))
+If you want to learn how to get GitHub achievements! You can learn it step by step here ==> [Get Github Achievements Step By Step]([(https://github.com/4xmen/Get-Github-Achievements))])
 
 
 
